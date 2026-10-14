@@ -1,0 +1,23 @@
+=== CLOUD SERVER LOG ANALYSIS REPORT ===
+Valid Records Processed: 2325
+Successful Requests (200 OK): 656
+Error Responses (4xx/5xx): 1194
+Overall Average Latency: NaN ms
+
+--- Per-Server Latency Breakdown ---
+Server SRV-01: 226 requests, Average Latency NaN ms
+Server SRV-02: 263 requests, Average Latency NaN ms
+Server SRV-10: 247 requests, Average Latency NaN ms
+Server SRV-09: 215 requests, Average Latency NaN ms
+Server SRV-08: 233 requests, Average Latency NaN ms
+Server SRV-03: 226 requests, Average Latency 607.9722123893804 ms
+Server SRV-04: 224 requests, Average Latency 594.8392857142857 ms
+Server SRV-05: 223 requests, Average Latency 572.0777130044843 ms
+Server SRV-06: 231 requests, Average Latency 634.1531601731602 ms
+Server SRV-07: 237 requests, Average Latency 579.3018987341771 ms
+--- High Latency Alerts ---
+Alert: Server SRV-03 exceeds the latency threshold
+Alert: Server SRV-04 exceeds the latency threshold
+Alert: Server SRV-05 exceeds the latency threshold
+Alert: Server SRV-06 exceeds the latency threshold
+Alert: Server SRV-07 exceeds the latency threshold
